@@ -1,0 +1,387 @@
+
+.wrap-main-header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #EEEEEE;
+}
+
+.wrap-logo {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.wrap-main-header-mobile {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #EEEEEE;
+}
+
+.margin-r-menu-topo{
+    margin-right: 27px;
+}
+
+     /* esconder imagens no modo mobile*/
+
+.wrap-main-header {
+    display: none;
+  }
+
+
+
+  @media screen and (min-width: 769px) {
+    .wrap-main-header {
+      display: block;
+    }
+  }
+
+  .wrap-main-header-mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .wrap-main-header-mobile {
+      display: block;
+    }
+  }
+
+  .retangulo19 {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .menu-toggler {
+      display: block;
+    }
+  }
+
+  .retangulo19 {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .retangulo19 {
+      display: block;
+    }
+  }
+
+  .retangulo16 {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .retangulo16 {
+      display: block;
+    }
+  }
+
+  .retangulo21 {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .retangulo21 {
+      display: block;
+    }
+  }
+
+
+  .Retangulo1 {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .Retangulo1 {
+      display: block;
+    }
+  }
+
+  .civicreserva{
+    display: none;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .civicreserva {
+      display: block;
+    }
+  }
+
+  .grupo98{
+    display: none;
+  }
+  
+  @media screen and (max-width: 728px) {
+    .grupo98 {
+      display: block;
+    }
+  }
+
+  .eleitovencedor2017 {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .eleitovencedor2017 {
+      display: block;
+    }
+  }
+
+  .grupo74web {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    .grupo74web {
+      display: block;
+    }
+  }
+
+  .grupo74mobile {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    .grupo74mobile {
+      display: block;
+    }
+  }
+  
+
+  .solicitarcontato{
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    .solicitarcontato{
+      display: block;
+    }
+    
+  }
+
+  .solicitarcontato-mobile{
+    display: none;
+  }
+  .divquebra {
+    display: none;
+}
+
+  @media screen and (max-width: 768px) {
+    .solicitarcontato-mobile{
+      display: block;
+    }
+    .textaccord {
+        display: none;
+    }
+    .fitcitymobile{
+        display: none;
+      }
+      .divquebra {
+        display: block;
+    }
+  }
+
+
+
+ 
+ 
+
+  /* FIM -- esconder imagens no modo mobile*/
+
+
+
+
+.solicitarcontato-mobile{
+    margin-top: 10px;
+}
+
+.menu1{
+    margin-left: 100px;
+   
+}
+
+.menu2{
+    margin-left: 800px;
+}
+.menu3{
+    margin-left: 100px;
+}
+
+.conteudo1 {
+color: #707070;
+margin-right: 90px;
+position: relative;
+}
+
+.conteudo2 {
+    color: #707070;
+    margin-right: 100px;
+}
+
+.conteudo3 {
+    color: #707070;
+    margin-right: 100px;
+        }
+
+.nav-item{
+    color: #797373;
+    
+}
+.nav-item{
+    cursor: pointer;
+
+}
+
+.home {
+    margin-left:100px;
+    
+   
+}
+.encontreconcessionaria {
+    margin-left:600px;
+   
+}
+
+.faleconosco {
+    margin-left:20px;
+    
+}
+.icons{
+    color: #D1D1D1;
+    margin-right: 10px;
+   
+}
+
+.color-cinza {
+    color: #707070;
+}
+
+
+.Retangulo1{ 
+    width: 100%;
+}
+.texto1 {
+ font-size: 34px;
+  font-style: italic;
+  color: #000000;
+  margin-top: 20px;
+  padding-left: 100px;
+}
+
+.eleitovencedor2017 {
+   
+    margin-left: 100px;
+    margin-top: 370px;
+    position: absolute;
+  
+
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+    .eleitovencedor2017 {
+   
+       
+        margin-top: 220px;
+        
+      
+    
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .eleitovencedor2017 {
+   
+       display: none;
+        
+        
+      
+    
+    }
+  }
+
+.retangulo161921 {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+ .juntosi {
+    padding-right: 300px;
+    padding-top: 60px;
+ }
+
+ .texto2 {
+    margin-top: 20px;
+     font-size: 15px;
+     padding-left: 93px;
+    
+ }
+ 
+ .texto3 {
+     font-size: 34px;
+     font-style: italic;
+     margin-top: 20px;
+     padding-left: 95px;
+ }
+
+ .texto4 {
+    padding-left: 95px;
+ }
+ .border {
+     margin: 5px;
+     border-radius: 10px;
+     
+     
+ }
+
+ .accord_city_fit {
+   text-align: center;
+ }
+
+.texto5 {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 24px;
+
+}
+
+.backgroundfooter {
+    background-color: #EEEEEE;
+}
+
+.logofooter {
+font-family: 'Segoe UI';
+font-size: 12px;
+}
+
+
+
+.spaceimg1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.spaceimg2 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.solicitarcontato {
+    position: fixed;
+    right: 0;
+    z-index: 99;
+}
+
+.rounded-circle {
+    
+   color: white;
+  font-size: 40px;
+  background-color: #C5C5C5;
+}
+
+button {
+   background-color: white;
+  
+}
+    
+
+
