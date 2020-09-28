@@ -20,14 +20,11 @@
     margin-right: 27px;
 }
 
-     /* esconder imagens no modo mobile*/
+     /* esconder imagens */
 
 .wrap-main-header {
     display: none;
   }
-
-
-
   @media screen and (min-width: 769px) {
     .wrap-main-header {
       display: block;
@@ -84,7 +81,6 @@
     }
   }
 
-
   .Retangulo1 {
     display: none;
   }
@@ -115,15 +111,7 @@
     }
   }
 
-  .eleitovencedor2017 {
-    display: none;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .eleitovencedor2017 {
-      display: block;
-    }
-  }
+ 
 
   .grupo74web {
     display: none;
@@ -145,7 +133,6 @@
     }
   }
   
-
   .solicitarcontato{
     display: none;
   }
@@ -153,8 +140,7 @@
   @media screen and (min-width: 768px) {
     .solicitarcontato{
       display: block;
-    }
-    
+    } 
   }
 
   .solicitarcontato-mobile{
@@ -176,18 +162,45 @@
       }
       .divquebra {
         display: block;
+    } 
+    .esconder02fotos {
+      display: none;
+    }
+    
+  }
+
+  .grupo100 {
+    display: none;
+  }
+  @media screen and (max-width: 769px) {
+    .grupo100 {
+      display: block;
     }
   }
 
+  .grupo65 {
+    display: none;
+  }
+  @media screen and (min-width: 770px) {
+    .grupo65 {
+      display: block;
+    }
+  }
 
-
+  
  
- 
+    .eleitovencedor2017 {
+      display: none;
+    }
+    
+    @media screen and (min-width: 768px) {
+      .eleitovencedor2017 {
+        display: block;
+      }
+    }
+  
 
-  /* FIM -- esconder imagens no modo mobile*/
-
-
-
+  /* FIM -- esconder imagens*/
 
 .solicitarcontato-mobile{
     margin-top: 10px;
@@ -227,27 +240,21 @@ position: relative;
 }
 .nav-item{
     cursor: pointer;
-
 }
 
 .home {
-    margin-left:100px;
-    
-   
+    margin-left:100px; 
 }
 .encontreconcessionaria {
-    margin-left:600px;
-   
+    margin-left:600px;  
 }
 
 .faleconosco {
-    margin-left:20px;
-    
+    margin-left:20px;   
 }
 .icons{
     color: #D1D1D1;
-    margin-right: 10px;
-   
+    margin-right: 10px;  
 }
 
 .color-cinza {
@@ -266,55 +273,51 @@ position: relative;
   padding-left: 100px;
 }
 
-.eleitovencedor2017 {
-   
-    margin-left: 100px;
-    margin-top: 370px;
-    position: absolute;
-  
+.bannermeiop{
+	margin-bottom: 20px;
+}
+
+.mx-1{
+	background: #cecece;
+	border-radius: 50px;
+	color: #fff;
+	font-size: 20px;
 
 }
 
+.bannermeio{
+	height: 450px;
+	margin-bottom: 20px;
+}
+.bannermeio img{
+	width: 100%;
+	height: 450px;
+}
+
+.imgslide{
+	border: 1px solid #cecece;
+	width: 300px;
+	height: 180px;
+	padding: 7px;
+}
+
+.slide{
+	max-width: 340px !important;
+}
 
 
-
-@media screen and (max-width: 1500px) {
-    .eleitovencedor2017 {
-   
-       
-        margin-top: 220px;
-        
-      
-    
-    }
-  }
-
-  @media screen and (max-width: 1200px) {
-    .eleitovencedor2017 {
-   
-       display: none;
-        
-        
-      
-    
-    }
-  }
-
+.retanguloscarros{
+	margin-left:50px;
+}
 .retangulo161921 {
-    padding-left: 80px;
-    padding-top: 10px;
+	border: 1px solid #cecece;
+	margin-bottom: 5px;
 }
-
- .juntosi {
-    padding-right: 300px;
-    padding-top: 60px;
- }
 
  .texto2 {
     margin-top: 20px;
-     font-size: 15px;
-     padding-left: 93px;
-    
+    font-size: 15px;
+    padding-left: 180px; 
  }
  
  .texto3 {
@@ -328,10 +331,8 @@ position: relative;
     padding-left: 95px;
  }
  .border {
-     margin: 5px;
-     border-radius: 10px;
-     
-     
+     margin: 25px;
+     border-radius: 10px;       
  }
 
  .accord_city_fit {
@@ -342,7 +343,6 @@ position: relative;
     margin-top: 20px;
     font-style: italic;
     font-size: 24px;
-
 }
 
 .backgroundfooter {
@@ -352,9 +352,8 @@ position: relative;
 .logofooter {
 font-family: 'Segoe UI';
 font-size: 12px;
+margin-right: 200px
 }
-
-
 
 .spaceimg1 {
     margin-top: 20px;
@@ -369,19 +368,42 @@ font-size: 12px;
     position: fixed;
     right: 0;
     z-index: 99;
+	right: 99px;
 }
 
 .rounded-circle {
-    
    color: white;
   font-size: 40px;
   background-color: #C5C5C5;
 }
 
 button {
-   background-color: white;
-  
+   background-color: white; 
 }
     
+.sizetext {
+  font-size: 20px;
+  font-style: italic;
+}
 
+.textbanner {
+  font-size: 34px;
+  font-style: italic;
+  position: relative;
+  display: inline-block;
+  position: absolute;
+  left: 91px;
+  bottom: 100px ;
+  color: white;
+}
+
+.textbanner2 {
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  position: absolute;
+  left: 91px;
+  bottom: 20px ;
+  color: white; 
+}
 
